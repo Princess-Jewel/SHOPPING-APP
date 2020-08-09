@@ -1,8 +1,7 @@
 .signin {
   background: linear-gradient(to right, #D8F3FB , #E9D8FB); 
-  background-size: 100%;
   font-family: 'Quicksand', sans-serif !important;
-  height: 100%;
+  
 }
 
 .signup {
