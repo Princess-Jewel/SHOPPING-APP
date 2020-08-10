@@ -1,12 +1,35 @@
 .signin {
   background: linear-gradient(to right, #D8F3FB , #E9D8FB); 
+  position: absolute;
+  width: 1390px;
+  height: 695px;
+  left: 3px;
+  top: 0px;
   font-family: 'Quicksand', sans-serif !important;
   
 }
+.signin1 {
+  background: linear-gradient(to right, #D8F3FB , #E9D8FB); 
+  position: absolute;
+  width: 1390px;
+  height: 600px;
+  left: 3px;
+  top: 0px;
+  font-family: 'Quicksand', sans-serif !important;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
 
 .signup {
-  background: linear-gradient(to right, #FBEFD8 , #D8FBEA); 
-  font-family: 'Quicksand', sans-serif !important;
+ background: linear-gradient(to right, #FBEFD8 , #D8FBEA); 
+ position: absolute;
+ width: 1365px;
+ height: 720px;
+ left: 0px;
+ top: 0px;
+ font-family: 'Quicksand', sans-serif !important;
 }
 
 .input-form {
@@ -14,18 +37,18 @@
   width: 300px;
   height: 250px;
   background-color: white;
+  margin-bottom: 10%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
   border-radius: 5px;
   padding: 30px;
 }
 
 .registration-form {
   /* position: absolute; */
-  width: 50%;
-  height: 40%;
+  width: 600px;
+  height: 450px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -37,9 +60,10 @@
 
 .products {
   /* position: absolute; */
-  width: 90%;
-  height: 800px;
+  width: 70%;
+  height: 1500px;
   background-color: white;
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1%;

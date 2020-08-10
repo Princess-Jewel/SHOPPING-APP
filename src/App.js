@@ -1,12 +1,14 @@
 import React from 'react';
-import SignIn from './components/SignIn'
+import SingleProduct from './components/SingleProduct'
+
 
 import './App.css';
 
 function App() {
   return (
     <div>
-      <SignIn/>
+      <SingleProduct/>
+      
     </div>
   );
 }
