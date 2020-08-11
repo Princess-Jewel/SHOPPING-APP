@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 
 class SignUp extends Component{
     render(){
@@ -41,7 +42,7 @@ class SignUp extends Component{
                             <label class="form-check-label" for="exampleCheck1" style= {{padding: "0px;"}}>I accept <span style= {{color: "#06DCA9"}}><strong>terms & conditions</strong></span></label>
                         </div>
                         <div class="form-group col-6">
-                            <a class="btn btn-success link-buttons" style= {{width: "70%",float: "right"}} href="products.html">Proceed</a>
+                            <Link class="btn btn-success link-buttons" style= {{width: "70%",float: "right"}} to="/products">Proceed</Link>
                         </div>
                     </div>
                 </div>

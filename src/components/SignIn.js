@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 
 class SignIn extends Component{
     render(){
@@ -8,26 +9,24 @@ class SignIn extends Component{
     <div class="input-form">
             Sign in to your account
             <div class="input-fields">
-             <label for="email"><b>Email</b></label>
-              <input type="text" name="email" id="email" required />
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" id="email" required />
                 
-              <label for="psw"><b>Password</b></label>
-              <input type="password" name="psw" id="psw" required />
+            <label for="psw"><b>Password</b></label>
+            <input type="password" name="psw" id="psw" required />
                
 
-              <div class="checkbox">
-                <label>
-                    <input type="checkbox" checked="checked" name="remember" />
-                  </label>
+            <div class="checkbox">
+            <input type="checkbox" name="" id=""/>
             </div>
-                <div class="buttons">
-                    <input type="button" value="SIGN IN" />
+                <div class="button">
+                <Link class="btn btn-success link-buttons" style= {{width: "40%",float: "right"}} to="/products">SIGN IN</Link>
                 </div>
                 
             </div>
         </div>
     </form>
-    <a href="signup.html">Don't have an account? Sign up</a>
+    <Link to="/signup">Don't have an account? Sign up</Link>
     
 </body>
         )
