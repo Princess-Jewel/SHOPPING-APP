@@ -43,7 +43,7 @@ class Products extends Component{
                             <p> $49.99</p>
                         </div>
                         <div class="col-12 p-3">
-                            <Link to="/singleproduct" class="btn btn-success link-buttons"> <i class="fa fa-eye" aria-hidden="true"></i> View</Link>
+                            <Link to="/singleproduct1" class="btn btn-success link-buttons"> <i class="fa fa-eye" aria-hidden="true"></i> View</Link>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ class Products extends Component{
                             <p> $59.99</p>
                         </div>
                         <div class="col-12 p-3">
-                            <Link to="/singleproduct" class="btn btn-success link-buttons"> <i class="fa fa-eye" aria-hidden="true"></i> View</Link>
+                            <Link to="/singleproduct2" class="btn btn-success link-buttons"> <i class="fa fa-eye" aria-hidden="true"></i> View</Link>
                         </div>
                     </div>
                 </div>

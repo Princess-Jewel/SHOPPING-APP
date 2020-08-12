@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Route, } from "react-router-dom";
 import SingleProduct from './components/SingleProduct';
+import SingleProduct1 from './components/SingleProduct1';
+import SingleProduct2 from './components/SingleProduct2';
 import SignUp from './components/SignUp';
 import Products from './components/Products';
 import SignIn from './components/SignIn';
@@ -28,6 +30,12 @@ class App extends React.Component{
             <li>
               <Link to="/singleproduct">SingleProduct</Link>
             </li>
+            <li>
+              <Link to="/singleproduct1">SingleProduct1</Link>
+            </li>
+            <li>
+              <Link to="/singleproduct2">SingleProduct2</Link>
+            </li>
           </ul>
         </nav>
         <switch>
@@ -35,6 +43,8 @@ class App extends React.Component{
         <Route path="/signup" component={SignUp} />
         <Route path="/products" component={Products} />
         <Route path="/singleproduct" component={SingleProduct} />
+        <Route path="/singleproduct1" component={SingleProduct1} />
+        <Route path="/singleproduct2" component={SingleProduct2} />
         </switch>
       </div>
   )
