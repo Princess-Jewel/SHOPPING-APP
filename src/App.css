@@ -18,10 +18,11 @@
   font-family: 'Quicksand', sans-serif !important;
   
 }
+/*
 ::-webkit-scrollbar{
   display: none;
 }
-
+*/
 .signup {
  background: linear-gradient(to right, #FBEFD8 , #D8FBEA); 
  position: absolute;
