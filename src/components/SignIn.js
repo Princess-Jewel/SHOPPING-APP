@@ -21,7 +21,7 @@ class SignIn extends Component{
 <body class="signin">
     <form onSubmit={this.handleChange} >
     <div class="input-form">
-            Sign in to your account
+            Sign in to your account 
             <div class="input-fields">
             <label for="email"><b>Email</b></label>
             <input type="text" name="email" id="email" required   value={this.state.email} onChange={this.handleChange}/>

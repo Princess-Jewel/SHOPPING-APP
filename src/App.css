@@ -6,8 +6,10 @@
   left: 3px;
   top: 0px;
   font-family: 'Quicksand', sans-serif !important;
+  background-size: cover;
   
 }
+
 .signin1 {
   background: linear-gradient(to right, #D8F3FB , #E9D8FB); 
   position: absolute;
